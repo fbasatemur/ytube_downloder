@@ -16,7 +16,7 @@ class Downloader():
             self.itagList = []
             self.resList = []
             self.loadbarValue = 0
-            self.fileSize = 0
+            # self.fileSize = 0
             
       
       def dataInfo(self):
@@ -54,7 +54,7 @@ class Downloader():
                   fileName = self.title
                   
             selectStream = self.ytStream.streams.get_by_itag(itagNo)
-            self.fileSize = selectStream.filesize
+            # self.fileSize = selectStream.filesize
             selectStream.download(filename=fileName)
             
       
