@@ -3,8 +3,17 @@
 Programming Lang: Python 3.7.3
 
 UI: PyQT5
-API: Pytube
-  
+API: Pytube3
+
+### Requirements
+```
+pip install PyQt5
+pip install pytube3
+```
+### Run
+```
+python YTube_main.py
+```
 ## UI Screenshots
 ### Enter URL..
 ![screenshot of conversion](https://github.com/fbasatemur/ytube_downloder/blob/master/screenshots/ytube_ss1.jpg)
