@@ -9,6 +9,7 @@ API: Pytube3
 ```
 pip install PyQt5
 pip install pytube3
+pip install pytube
 ```
 ### Run
 ```
